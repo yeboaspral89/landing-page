@@ -1,0 +1,153 @@
+@import url('http://fonts.googleapis.com/css?family=Roboto');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background: #ffffff;
+}
+
+img {
+    max-width: 100%;
+}
+  
+h1, h2 {
+ margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.navbar {
+    background: #1F2937;
+    height: 60px;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #F9FAF8
+}
+
+.navbar a {
+    color: #E5E7EB;
+    font-size: 18px; 
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: lightblue;
+  }
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.header {
+    background-color:#1F2937;
+}
+
+.header h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8
+}
+
+.header p {
+    color: #ffffff;
+}
+
+.header img{
+    max-width: 400px;
+}
+
+.header .container {
+    display: flex;
+    min-height: 480px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.signup {
+    background-color: #3882F6;
+    color: #ffffff;
+    padding-inline: 2rem;
+    padding-block: 7px;
+    border-radius: 7px;
+    font-size: large;
+    font-weight: 500;
+}
+
+.information .container {
+    display: flex;
+  color: #1F2937;
+  border-radius: 10px;
+  margin: 20px 10px;
+  padding: 15px 20px;
+  min-height: 400px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.action {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+@media (max-width: 768px) {
+    .header .container {
+      flex-direction: column;
+      padding-top: 20px;
+      text-align: center;
+    }
+  
+    .boxes .container {
+      display: block;
+      text-align: center;
+    }
+  }
+  
